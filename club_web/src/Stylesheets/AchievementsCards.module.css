@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.AchievementsContainer{
+    height: 110vh;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+    /* row-gap: 4vh; */
+}
+.AchievementsHead{
+    height: 10vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 4vh;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+.AchievementsCards{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    row-gap:30px ;
+}
+.AchievementsCard{
+    height: 40%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.leftOfAchievementCard{
+    height: 100%;
+    width: 35%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.leftOfAchievementCard>img{
+    height: 80%;
+    width: 80%;
+    background-color: #ffffff31;
+
+}
+.rightOfAchievementCard{
+    height: 100%;
+    width: 65%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    row-gap: 8px;
+}
+h1{
+    font-weight: 400;
+}
+h3{
+    font-weight: 300;
+    color: lightgray;
+}
+h2{
+    font-weight: 500;
+
+}
+.titleAndDescription{
+    width: 80%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.084);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+.titleAndDescription>p{
+    width: 85%;
+    text-align: center;
+    color: lightgray;
+}
