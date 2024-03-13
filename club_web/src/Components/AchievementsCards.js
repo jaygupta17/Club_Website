@@ -7,44 +7,45 @@ const AchievementsHead = ()=>{
         </div>
     );
 }
-// const AchievementsCard = {
-//     aname,
-//     branch,
-//     title,
-//     description,
-// }
+
 let AchievementsList = [
     {
         aname : "Tushar Pamnani",
         branch : "Computer Science and engineering [2026]",
         title : "Smart India Hackathon",
+        img: "../Assets/tcblogo.jpg",
         description : "lorem epsum cortesdf dfbdf dfndf dfndf dnfdf ndf df  djsd hddf dfh",
     },
     {
         aname : "Tushar Pamnani",
         branch : "Computer Science and engineering [2026]",
         title : "Smart India Hackathon",
+        img: "../Assets/tcblogo.jpg",
         description : "lorem epsum cortesdf dfbdf dfndf dfndf dnfdf ndf df  djsd hddf dfh",
     },
     {
         aname : "Tushar Pamnani",
         branch : "Computer Science and engineering [2026]",
         title : "Smart India Hackathon",
+        img: "../Assets/tcblogo.jpg",
         description : "lorem epsum cortesdf dfbdf dfndf dfndf dnfdf ndf df  djsd hddf dfh",
     },
     {
         aname : "Tushar Pamnani",
         branch : "Computer Science and engineering [2026]",
         title : "Smart India Hackathon",
+        img: "../Assets/tcblogo.jpg",
         description : "lorem epsum cortesdf dfbdf dfndf dfndf dnfdf ndf df  djsd hddf dfh",
     },
     {
         aname : "Tushar Pamnani",
         branch : "Computer Science and engineering [2026]",
         title : "Smart India Hackathon",
+        img: "../Assets/tcblogo.jpg",
         description : "lorem epsum cortesdf dfbdf dfndf dfndf dnfdf ndf df  djsd hddf dfh",
     }
 ];
+
 let AchievementsCard = AchievementsList.map((obj)=>{
     return  <div className={Style.AchievementsCard}>
             <div className={Style.leftOfAchievementCard}>

@@ -1,0 +1,97 @@
+.footer {
+  margin-top: 8px;
+  height: 36.1vh;
+  width: 100%;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 30%;
+  height: 36.1vh;
+}
+
+.logo_class {
+  height: 150px;
+  display: flex;
+  margin: 1.7rem 0 0 10rem;
+}
+
+.imgText {
+  margin: 1rem 0 0 8.5rem;
+  background: linear-gradient(
+    270deg,
+    #9bffff 9.26%,
+    #3fffff 27.77%,
+    #6bdbd8 48.19%,
+    #2fbebb 64.52%,
+    #027498 83.12%,
+    #036 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Viga", sans-serif;
+}
+
+.right {
+  height: 36.1vh;
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.Copyright{
+    color: white;
+    width: 18rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+.mainCont{
+    display: flex;
+    gap: 4rem;
+    margin: 2rem 0 0 10rem;
+}
+
+.Information h2{
+    color: white;
+    
+}
+
+.Club h2{
+    color: white;
+}
+
+.list{
+    color: white;
+    list-style: none;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    font-size: 18px;
+}
+
+.list2{
+    list-style: none;
+    color: white;
+    list-style: none;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.rightmost{
+    height: 7vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-left: -3rem;
+}
+
